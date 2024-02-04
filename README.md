@@ -11,8 +11,8 @@ Formulate the problem statement: Improve the performance of the customer loan pr
 ## Data Science Process
 
 1. **Descriptive Analysis:**
-   - Explore and analyze the dataset to gain insights into customer characteristics.
-   - Understand the distribution of key features.
+   - Examining the distribution of age, gender, occupation, housing status, loan purpose, average balances, and loan durations.
+   - Calculating descriptive statistics such as mean, median, mode, and visualizing data using graphs and diagrams.
 
 2. **Attribute Influence on Default:**
    - Conduct statistical tests (t-test) to identify attributes significantly influencing defaults.
