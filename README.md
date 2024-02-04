@@ -13,7 +13,13 @@ Formulate the problem statement: Improve the performance of the customer loan pr
 1. **Descriptive Analysis:**
    - Examining the distribution of age, gender, occupation, housing status, loan purpose, average balances, and loan durations.
    - Calculating descriptive statistics such as mean, median, mode, and visualizing data using graphs and diagrams.
-
+     - Distribution Age
+       ![img](https://raw.githubusercontent.com/dikhimartin/Fintech-Loan-Performance-Analysis/master/data/distribution-age.png)
+     - Distribution of Average Credit Amount by Default Status
+       ![img](https://raw.githubusercontent.com/dikhimartin/Fintech-Loan-Performance-Analysis/master/data/distribution-of-average-credit-amount-by-default-status.png)
+     - Relationship between Average Checking Balance and Average Saving Balance by Default Status
+       ![img](https://raw.githubusercontent.com/dikhimartin/Fintech-Loan-Performance-Analysis/master/data/relationship-between-average-checking-balance-and-average-saving-balance-by-default-status.png)
+   
 2. **Attribute Influence on Default:**
    - Conduct statistical tests (t-test) to identify attributes significantly influencing defaults.
    - Example: Test the significance of average loan duration for default and non-default customers.
