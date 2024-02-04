@@ -32,9 +32,36 @@ Formulate the problem statement: Improve the performance of the customer loan pr
 - `Fintech_Loan_Performance.ipynb`: Jupyter Notebook containing the Python code for the analysis.
 
 ## Getting Started
+---
 
-1. Clone the repository.
-2. Open and run the Jupyter Notebook (`Fintech_Loan_Performance.ipynb`).
+I recommend using Visual Studio Code to access the `.ipynb` files, as it comes equipped with both Jupyter notebooks and a terminal. However, if you prefer using the terminal along with the JupyterLab server, that is also allowed. Please follow the steps below to set up the environment to run the files:
+
+Begin by installing [Anaconda](https://www.anaconda.com/products/distribution) (or [Miniconda](https://docs.conda.io/en/latest/miniconda.html)), [git](https://git-scm.com/downloads).
+
+Next, clone this repository by opening the terminal and typing the following commands (don't type the $ symbol, it just indicates that these are terminal commands):
+
+    $ git clone https://github.com/dikhimartin/Fintech-Loan-Performance-Analysis.git
+    $ cd Fintech-Loan-Performance-Analysis
+
+Then, run the following commands:
+
+    $ conda env create -f environment.yml
+    $ conda activate bol_datascience_course
+    $ python -m ipykernel install --user --name=bol_datascience_course
+
+If you're not using Visual Studio Code, you need to start Jupyter Lab to open the ipynb notebook.
+
+    $ jupyter lab
+
+Note:
+To activate this environment, use:
+
+     $ conda activate bol_datascience_course
+
+To deactivate the active environment, use:
+
+     $ conda deactivate
+
 
 ## Conclusion
 
